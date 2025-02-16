@@ -47,10 +47,10 @@ export default function TableClients() {
                                     {
                                         status == "Active" ? <div className="flex items-center space-x-2 bg-green-100 w-fit rounded ps-2 pe-2">
                                             <span className="w-1 h-1 rounded-full bg-white"></span>
-                                            <p className="p-0 text-gray-900">{status}</p>
+                                            <p className="p-0 text-green-800">{status}</p>
                                         </div> : <div className="flex items-center space-x-2 bg-gray-100 w-fit rounded ps-2 pe-2">
                                             <span className="w-1 h-1 rounded-full bg-white"></span>
-                                            <p className="p-0 text-gray-900">{status}</p>
+                                            <p className="p-0 text-gray-700">{status}</p>
                                         </div>
                                     }
                                 </TableCell>
